@@ -1,0 +1,12 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="ConvertToPhoneSoundFile.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="ConvertOptions" Type="System.String" Scope="User">
+      <Value Profile="(Default)">-ab 8k -ar 8k -ac 1 -acodec pcm_mulaw -y</Value>
+    </Setting>
+    <Setting Name="SaveInDirectory" Type="System.String" Scope="User">
+      <Value Profile="(Default)">D:\Repos_git\CallReminderSystem\CallReminderSystem\SoundFiles</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

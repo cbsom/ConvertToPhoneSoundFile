@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "ConvertToPhoneSoundFile": {
+      "commandName": "Project",
+      "commandLineArgs": "1 טסט"
+    }
+  }
+}
