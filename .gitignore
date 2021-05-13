@@ -1,4 +1,5 @@
 syntax: glob
+*.exe
 bin/
 obj/
 publish/
