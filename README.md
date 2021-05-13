@@ -1,4 +1,4 @@
-# ConvertToPhoneSoundFile
+# Convert To Phone Sound File
 
 Uses FFmpeg to convert a sound file to 8 bit u-law.
 
