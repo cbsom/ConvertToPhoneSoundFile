@@ -14,3 +14,4 @@ We use this application to generate small WAV files to be used as recordings for
 IMPORTANT NOTE: The app expects to find ffmpeg.exe in the root folder.
 
 Ffmpeg can be acquired at https://www.ffmpeg.org/
+The latest ffmpeg build for Windows can be downloaded from https://www.gyan.dev/ffmpeg/builds/ffmpeg-release-essentials.7z
