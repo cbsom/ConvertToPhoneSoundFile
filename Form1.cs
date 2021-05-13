@@ -53,24 +53,24 @@ namespace ConvertToPhoneSoundFile
                 CheckPathExists = true,
                 CheckFileExists = true,
                 Multiselect = false,
-                Title = "בחר קובץ שמע...",
-                Filter = "קובצי שמע|*.wav;*.aac;*.wma;*.wmv;*.avi;*.mpg;*.mpeg;*.ogg;*.m1v;*.mp2;*.mp3;*.mpa;*.mpe;*.m3u;*.mp4;*.mov;*.3g2;*.3gp2;*.3gp;*.3gpp;*.m4a;*.cda;*.aif;*.aifc;*.aiff;*.mid;*.midi;*.rmi;*.mkv;*.WAV;*.AAC;*.WMA;*.WMV;*.AVI;*.MPG;*.MPEG;*.M1V;*.MP2;*.MP3;*.MPA;*.MPE;*.M3U;*.MP4;*.MOV;*.3G2;*.3GP2;*.3GP;*.3GPP;*.M4A;*.CDA;*.AIF;*.AIFC;*.AIFF;*.MID;*.MIDI;*.RMI;*.MKV;*.OGG"
+                Title = "Choose an audio file...",
+                Filter = "audio files|*.wav;*.aac;*.wma;*.wmv;*.avi;*.mpg;*.mpeg;*.ogg;*.m1v;*.mp2;*.mp3;*.mpa;*.mpe;*.m3u;*.mp4;*.mov;*.3g2;*.3gp2;*.3gp;*.3gpp;*.m4a;*.cda;*.aif;*.aifc;*.aiff;*.mid;*.midi;*.rmi;*.mkv;*.WAV;*.AAC;*.WMA;*.WMV;*.AVI;*.MPG;*.MPEG;*.M1V;*.MP2;*.MP3;*.MPA;*.MPE;*.M3U;*.MP4;*.MOV;*.3G2;*.3GP2;*.3GP;*.3GPP;*.M4A;*.CDA;*.AIF;*.AIFC;*.AIFF;*.MID;*.MIDI;*.RMI;*.MKV;*.OGG"
             };
             if (fileDialog.ShowDialog(this) != DialogResult.OK ||
                 !File.Exists(fileDialog.FileName)) return;
 
-            this.label1.Text = $"ממיר קובץ {Path.GetFileNameWithoutExtension(fileDialog.FileName)}...";
+            this.label1.Text = $"Converting file {Path.GetFileNameWithoutExtension(fileDialog.FileName)}...";
             this.label1.Refresh();
             _currentFile = Program.GetSoundFilePath(fileDialog.FileName);
             if (Program.DoSoundFileConversion(fileDialog.FileName) &&
                 File.Exists(_currentFile))
             {
-                this.label1.Text = "הקובץ נקלט בהצלחה";
+                this.label1.Text = "The file has been converted to " + _currentFile;
                 this.btnPlay.Visible = true;
             }
             else
             {
-                this.label1.Text = "העלת הקובץ נכשלה";
+                this.label1.Text = "The conversion failed....";
                 this.btnPlay.Visible = false;
             }
         }

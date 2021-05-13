@@ -44,8 +44,7 @@ namespace ConvertToPhoneSoundFile
             // 
             this.label1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.label1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(253)))), ((int)(((byte)(242)))), ((int)(((byte)(234)))));
-            this.label1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.label1.BackColor = System.Drawing.Color.Transparent;
             this.label1.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.label1.ForeColor = System.Drawing.Color.Maroon;
             this.label1.Location = new System.Drawing.Point(31, 250);
@@ -53,7 +52,6 @@ namespace ConvertToPhoneSoundFile
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(827, 145);
             this.label1.TabIndex = 0;
-            this.label1.Text = "label1";
             this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // btnClose
@@ -63,7 +61,7 @@ namespace ConvertToPhoneSoundFile
             this.btnClose.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.btnClose.Image = global::ConvertToPhoneSoundFile.Properties.Resources.application_exit;
             this.btnClose.Location = new System.Drawing.Point(13, 441);
-            this.btnClose.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnClose.Margin = new System.Windows.Forms.Padding(4);
             this.btnClose.Name = "btnClose";
             this.btnClose.Size = new System.Drawing.Size(169, 86);
             this.btnClose.TabIndex = 1;
@@ -80,7 +78,7 @@ namespace ConvertToPhoneSoundFile
             this.btnRun.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
             this.btnRun.Image = global::ConvertToPhoneSoundFile.Properties.Resources.document_open;
             this.btnRun.Location = new System.Drawing.Point(614, 441);
-            this.btnRun.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnRun.Margin = new System.Windows.Forms.Padding(4);
             this.btnRun.Name = "btnRun";
             this.btnRun.Size = new System.Drawing.Size(262, 86);
             this.btnRun.TabIndex = 2;
@@ -97,7 +95,7 @@ namespace ConvertToPhoneSoundFile
             this.btnPlay.ForeColor = System.Drawing.Color.White;
             this.btnPlay.Image = global::ConvertToPhoneSoundFile.Properties.Resources.sound;
             this.btnPlay.Location = new System.Drawing.Point(371, 441);
-            this.btnPlay.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnPlay.Margin = new System.Windows.Forms.Padding(4);
             this.btnPlay.Name = "btnPlay";
             this.btnPlay.Size = new System.Drawing.Size(235, 86);
             this.btnPlay.TabIndex = 3;
@@ -112,7 +110,7 @@ namespace ConvertToPhoneSoundFile
             this.textBox1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.textBox1.Location = new System.Drawing.Point(31, 53);
-            this.textBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.textBox1.Margin = new System.Windows.Forms.Padding(4);
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(827, 30);
             this.textBox1.TabIndex = 4;
@@ -123,7 +121,7 @@ namespace ConvertToPhoneSoundFile
             this.textBox2.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.textBox2.Location = new System.Drawing.Point(31, 167);
-            this.textBox2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.textBox2.Margin = new System.Windows.Forms.Padding(4);
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(827, 30);
             this.textBox2.TabIndex = 5;
