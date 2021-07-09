@@ -6,7 +6,7 @@
       <Value Profile="(Default)">-ab 8k -ar 8k -ac 1 -acodec pcm_mulaw -y</Value>
     </Setting>
     <Setting Name="SaveInDirectory" Type="System.String" Scope="User">
-      <Value Profile="(Default)">D:\Repos_git\CallReminderSystem\CallReminderSystem\SoundFiles</Value>
+      <Value Profile="(Default)">C:\repos_git\CallReminderSystem\CallReminderSystem\SoundFiles</Value>
     </Setting>
   </Settings>
 </SettingsFile>
